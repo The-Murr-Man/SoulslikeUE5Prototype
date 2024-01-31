@@ -1,0 +1,12 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"D:/Personal Projects/UE4/SoulslikeUE5PrototypeRepo/SoulslikeUE5Prototype/SoulslikeUE5Project/Content/StarterContent/Architecture/Floor_400x400.uasset"
+			]
+		}
+	]
+}
