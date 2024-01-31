@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\SoulslikeUE5Project.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\SoulslikeUE5Project.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\SoulslikeUE5ProjectEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\SoulslikeUE5Project">
+      <UniqueIdentifier>{D0C428ED-1A56-3DB5-A244-9C885EFB8AEA}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\SoulslikeUE5Project\SoulslikeUE5Project.Build.cs">
+      <Filter>Source\SoulslikeUE5Project</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\SoulslikeUE5Project\SoulslikeUE5Project.cpp">
+      <Filter>Source\SoulslikeUE5Project</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SoulslikeUE5Project\SoulslikeUE5Project.h">
+      <Filter>Source\SoulslikeUE5Project</Filter>
+    </ClInclude>
+    <Filter Include="Source\SoulslikeUE5Project\Private">
+      <UniqueIdentifier>{88D262BB-170C-3514-9B64-E0D4249F8A82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\SoulslikeUE5Project\Private\Items">
+      <UniqueIdentifier>{6EB2F0C7-9C39-39E5-9C87-16DE07DED95D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\SoulslikeUE5Project\Private\Items\Item.cpp">
+      <Filter>Source\SoulslikeUE5Project\Private\Items</Filter>
+    </ClCompile>
+    <Filter Include="Source\SoulslikeUE5Project\Public">
+      <UniqueIdentifier>{0F80D827-6EE8-351A-AFB6-8934C6EEB990}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\SoulslikeUE5Project\Public\Items">
+      <UniqueIdentifier>{9E644F8D-F834-3B56-9B72-0D5CCF382B8D}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\SoulslikeUE5Project\Public\Items\Item.h">
+      <Filter>Source\SoulslikeUE5Project\Public\Items</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

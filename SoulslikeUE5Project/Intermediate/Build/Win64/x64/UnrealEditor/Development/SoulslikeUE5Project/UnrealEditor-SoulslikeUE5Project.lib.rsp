@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-SoulslikeUE5Project.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Personal Projects\UE4\SoulslikeUE5PrototypeRepo\SoulslikeUE5Prototype\SoulslikeUE5Project\Intermediate\Build\Win64\x64\SoulslikeUE5ProjectEditor\Development\Engine\SharedPCH.Engine.Cpp20.InclOrderUnreal5_0.h.obj"
+"D:\Personal Projects\UE4\SoulslikeUE5PrototypeRepo\SoulslikeUE5Prototype\SoulslikeUE5Project\Intermediate\Build\Win64\x64\UnrealEditor\Development\SoulslikeUE5Project\Item.gen.cpp.obj"
+"D:\Personal Projects\UE4\SoulslikeUE5PrototypeRepo\SoulslikeUE5Prototype\SoulslikeUE5Project\Intermediate\Build\Win64\x64\UnrealEditor\Development\SoulslikeUE5Project\SoulslikeUE5Project.init.gen.cpp.obj"
+"D:\Personal Projects\UE4\SoulslikeUE5PrototypeRepo\SoulslikeUE5Prototype\SoulslikeUE5Project\Intermediate\Build\Win64\x64\UnrealEditor\Development\SoulslikeUE5Project\SoulslikeUE5Project.cpp.obj"
+"D:\Personal Projects\UE4\SoulslikeUE5PrototypeRepo\SoulslikeUE5Prototype\SoulslikeUE5Project\Intermediate\Build\Win64\x64\UnrealEditor\Development\SoulslikeUE5Project\Item.cpp.obj"
+"D:\Personal Projects\UE4\SoulslikeUE5PrototypeRepo\SoulslikeUE5Prototype\SoulslikeUE5Project\Intermediate\Build\Win64\x64\UnrealEditor\Development\SoulslikeUE5Project\Default.rc2.res"
+/OUT:"D:\Personal Projects\UE4\SoulslikeUE5PrototypeRepo\SoulslikeUE5Prototype\SoulslikeUE5Project\Intermediate\Build\Win64\x64\UnrealEditor\Development\SoulslikeUE5Project\UnrealEditor-SoulslikeUE5Project.lib"

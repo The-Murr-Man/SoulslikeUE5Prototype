@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\personal projects\\ue4\\soulslikeue5prototyperepo\\soulslikeue5prototype\\soulslikeue5project\\source\\soulslikeue5project\\soulslikeue5project.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\personal projects\\ue4\\soulslikeue5prototyperepo\\soulslikeue5prototype\\soulslikeue5project\\intermediate\\build\\win64\\x64\\soulslikeue5projecteditor\\development\\engine\\sharedpch.engine.cpp20.inclorderunreal5_0.h.pch",
+        "Includes": [
+            "d:\\personal projects\\ue4\\soulslikeue5prototyperepo\\soulslikeue5prototype\\soulslikeue5project\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\soulslikeue5project\\definitions.soulslikeue5project.h",
+            "d:\\personal projects\\ue4\\soulslikeue5prototyperepo\\soulslikeue5prototype\\soulslikeue5project\\source\\soulslikeue5project\\soulslikeue5project.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
