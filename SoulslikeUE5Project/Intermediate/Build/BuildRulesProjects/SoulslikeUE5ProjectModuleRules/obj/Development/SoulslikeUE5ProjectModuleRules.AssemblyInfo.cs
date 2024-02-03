@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SoulslikeUE5ProjectModuleRules")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Development")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9d35f8956396936d7733b6fa0012f7aeee49fa37")]
 [assembly: System.Reflection.AssemblyProductAttribute("SoulslikeUE5ProjectModuleRules")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SoulslikeUE5ProjectModuleRules")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
