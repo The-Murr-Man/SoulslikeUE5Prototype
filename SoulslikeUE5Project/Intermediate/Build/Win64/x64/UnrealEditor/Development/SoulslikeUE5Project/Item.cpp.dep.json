@@ -7,7 +7,8 @@
         "Includes": [
             "d:\\personal projects\\ue4\\soulslikeue5prototyperepo\\soulslikeue5prototype\\soulslikeue5project\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\soulslikeue5project\\definitions.soulslikeue5project.h",
             "d:\\personal projects\\ue4\\soulslikeue5prototyperepo\\soulslikeue5prototype\\soulslikeue5project\\source\\soulslikeue5project\\public\\items\\item.h",
-            "d:\\personal projects\\ue4\\soulslikeue5prototyperepo\\soulslikeue5prototype\\soulslikeue5project\\intermediate\\build\\win64\\unrealeditor\\inc\\soulslikeue5project\\uht\\item.generated.h"
+            "d:\\personal projects\\ue4\\soulslikeue5prototyperepo\\soulslikeue5prototype\\soulslikeue5project\\intermediate\\build\\win64\\unrealeditor\\inc\\soulslikeue5project\\uht\\item.generated.h",
+            "d:\\personal projects\\ue4\\soulslikeue5prototyperepo\\soulslikeue5prototype\\soulslikeue5project\\source\\soulslikeue5project\\public\\debugmacros.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

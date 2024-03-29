@@ -57,4 +57,9 @@
       <Filter>Source\SoulslikeUE5Project\Public\Items</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\SoulslikeUE5Project\Public\DebugMacros.h">
+      <Filter>Source\SoulslikeUE5Project</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>

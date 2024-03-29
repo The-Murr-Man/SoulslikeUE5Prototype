@@ -682,9 +682,9 @@
             "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\engine\\public\\worldpartition\\worldpartitionactordesctype.h",
             "c:\\program files\\epic games\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\actor.generated.h",
             "d:\\personal projects\\ue4\\soulslikeue5prototyperepo\\soulslikeue5prototype\\soulslikeue5project\\intermediate\\build\\win64\\unrealeditor\\inc\\soulslikeue5project\\uht\\item.generated.h",
+            "d:\\personal projects\\ue4\\soulslikeue5prototyperepo\\soulslikeue5prototype\\soulslikeue5project\\source\\soulslikeue5project\\public\\debugmacros.h",
             "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\engine\\public\\drawdebughelpers.h",
-            "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\engine\\public\\enginedefines.h",
-            "d:\\personal projects\\ue4\\soulslikeue5prototyperepo\\soulslikeue5prototype\\soulslikeue5project\\source\\soulslikeue5project\\soulslikeue5project.h"
+            "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\engine\\public\\enginedefines.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

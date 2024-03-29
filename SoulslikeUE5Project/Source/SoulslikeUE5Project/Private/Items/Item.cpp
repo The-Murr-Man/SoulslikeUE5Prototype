@@ -1,7 +1,6 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 #include "Items/Item.h"
-#include "DrawDebugHelpers.h"
-#include "SoulslikeUE5Project/SoulslikeUE5Project.h"
+#include "DebugMacros.h"
 
 AItem::AItem()
 {
@@ -15,15 +14,15 @@ void AItem::BeginPlay()
 {
 	Super::BeginPlay();
 	
-	if (GetWorld())
-	{
-		FVector location = GetActorLocation();
-		FVector forward = GetActorForwardVector();
-		FVector direction = location + forward * 100.f;
+	UWorld* World = GetWorld();
+	FVector location = GetActorLocation();
+	FVector forward = GetActorForwardVector();
+	FVector direction = location + forward * 100.f;
 
-		DRAW_SPHERE(location);
-		DRAW_LINE(location, direction);
-	}
+	DRAW_SPHERE(location, 25, FColor::Purple);
+	DRAW_LINE(location, direction, FColor::Red);
+	DRAW_POINT(direction, 15, FColor::Red);
+	
 }
 
 // Called every frame
@@ -40,7 +39,7 @@ void AItem::Tick(float DeltaTime)
 	//	FString name = GetName(); // GetName() returns the name of the object the script is attached to
 	//	FString message = FString::Printf(TEXT("Item name: %s"), *name); //* operator converts FString to C style string
 
-	//	 Adds a message on the screen
+	//	 //Adds a message on the screen
 	//	GEngine->AddOnScreenDebugMessage(1, 60.f, FColor::Purple, message);
 
 	//	UE_LOG(LogTemp, Warning, TEXT("Item name: %s"), *name);
