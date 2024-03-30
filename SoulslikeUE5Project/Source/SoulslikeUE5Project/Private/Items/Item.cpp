@@ -7,21 +7,14 @@ AItem::AItem()
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
+	itemMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("ItemMeshComponent"));
+	RootComponent = itemMesh;
 }
 
 // Called when the game starts or when spawned
 void AItem::BeginPlay()
 {
 	Super::BeginPlay();
-	
-	UWorld* World = GetWorld();
-	FVector location = GetActorLocation();
-	FVector forward = GetActorForwardVector();
-	FVector direction = location + forward * 100.f;
-
-	DRAW_SPHERE(location, 25, FColor::Purple);
-	DRAW_LINE(location, direction, FColor::Red);
-	DRAW_POINT(direction, 15, FColor::Red);
 	
 }
 
@@ -30,19 +23,16 @@ void AItem::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-	// %f is the float format specifier
-	// Tells the TEXT() macro to replace %f with deltaTime
-	//UE_LOG(LogTemp, Warning, TEXT("Delta Time: %f"), DeltaTime);
+	runningTime += DeltaTime;
 
-	//if (GEngine)
-	//{
-	//	FString name = GetName(); // GetName() returns the name of the object the script is attached to
-	//	FString message = FString::Printf(TEXT("Item name: %s"), *name); //* operator converts FString to C style string
-
-	//	 //Adds a message on the screen
-	//	GEngine->AddOnScreenDebugMessage(1, 60.f, FColor::Purple, message);
-
-	//	UE_LOG(LogTemp, Warning, TEXT("Item name: %s"), *name);
-	//}
 }
 
+float AItem::TransformedSin()
+{
+	return amplitude * FMath::Sin(runningTime * timeConstant);
+}
+
+float AItem::TransformedCos()
+{
+	return  amplitude * FMath::Cos(runningTime * timeConstant);
+}
