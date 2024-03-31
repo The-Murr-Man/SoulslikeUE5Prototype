@@ -11,6 +11,7 @@
     <None Include="..\..\Source\SoulslikeUE5ProjectEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.vsconfig" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -47,19 +48,29 @@
     <ClCompile Include="..\..\Source\SoulslikeUE5Project\Private\Items\Item.cpp">
       <Filter>Source\SoulslikeUE5Project\Private\Items</Filter>
     </ClCompile>
+    <Filter Include="Source\SoulslikeUE5Project\Private\Pawns">
+      <UniqueIdentifier>{BD177324-56AD-3873-A2A4-A8749A1572A7}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\SoulslikeUE5Project\Private\Pawns\Bird.cpp">
+      <Filter>Source\SoulslikeUE5Project\Private\Pawns</Filter>
+    </ClCompile>
     <Filter Include="Source\SoulslikeUE5Project\Public">
       <UniqueIdentifier>{0F80D827-6EE8-351A-AFB6-8934C6EEB990}</UniqueIdentifier>
     </Filter>
+    <ClInclude Include="..\..\Source\SoulslikeUE5Project\Public\DebugMacros.h">
+      <Filter>Source\SoulslikeUE5Project\Public</Filter>
+    </ClInclude>
     <Filter Include="Source\SoulslikeUE5Project\Public\Items">
       <UniqueIdentifier>{9E644F8D-F834-3B56-9B72-0D5CCF382B8D}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\SoulslikeUE5Project\Public\Items\Item.h">
       <Filter>Source\SoulslikeUE5Project\Public\Items</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\SoulslikeUE5Project\Public\DebugMacros.h">
-      <Filter>Source\SoulslikeUE5Project</Filter>
+    <Filter Include="Source\SoulslikeUE5Project\Public\Pawns">
+      <UniqueIdentifier>{CE93DBCA-52BD-379D-9BBB-18B47EE8F056}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\SoulslikeUE5Project\Public\Pawns\Bird.h">
+      <Filter>Source\SoulslikeUE5Project\Public\Pawns</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

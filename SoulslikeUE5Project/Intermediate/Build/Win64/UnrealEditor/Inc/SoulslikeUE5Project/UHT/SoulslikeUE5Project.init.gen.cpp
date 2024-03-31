@@ -17,13 +17,13 @@ void EmptyLinkFunctionForGeneratedCodeSoulslikeUE5Project_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xC8E4C65A,
-				0x1324ADD6,
+				0x0405E164,
+				0xDEEAC55F,
 				METADATA_PARAMS(0, nullptr)
 			};
 			UECodeGen_Private::ConstructUPackage(Z_Registration_Info_UPackage__Script_SoulslikeUE5Project.OuterSingleton, PackageParams);
 		}
 		return Z_Registration_Info_UPackage__Script_SoulslikeUE5Project.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_SoulslikeUE5Project(Z_Construct_UPackage__Script_SoulslikeUE5Project, TEXT("/Script/SoulslikeUE5Project"), Z_Registration_Info_UPackage__Script_SoulslikeUE5Project, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0xC8E4C65A, 0x1324ADD6));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_SoulslikeUE5Project(Z_Construct_UPackage__Script_SoulslikeUE5Project, TEXT("/Script/SoulslikeUE5Project"), Z_Registration_Info_UPackage__Script_SoulslikeUE5Project, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x0405E164, 0xDEEAC55F));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
